@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Porafolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./resources/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+  </head>
+  <body>
+    <header>
+       <div class="container">
+         <nav class="navegacion">
+           <a href="#acerca">Acerca de</a>
+           <a href="#trabajos">Trabajos</a>
+           <a href="#contacto">Contacto</a>
+         </nav>
+         <div class="container-texto">
+           <div class="texto">
+             <h1 class="nombre">Alejandro Rodriguez Bravo</h1>
+             <h2 class="profesion">Desarrollador Web</h2>
+           </div>
+         </div>
+      </div>
+
+    </header>
+    <section class="main">
+      <section class="Acerca-de" id="acerca">
+       <div class="container">
+        <div class="foto">
+          <img src="./resources/images/perfil1.jpg" width="115" heigth="115" alt="Alejandro Rodríguez Bravo"/>
+        </div>
+        <div class="texto">
+          <h3 class="titulo">Acerca de</h3>
+          <p>Lorem ipsum <span class="bold">dolore eu fugiat</span> nulla sunt in culpa qui officia <span class="bold">deserunt mollit</span> anim id est laborum.</p>
+        </div>
+      </div>
+      </section>
+      <section class="trabajos" id="trabajos">
+        <div class="container">
+          <h3 class="titulo">Trabajos</h3>
+          <div class="container-trabajos">
+            <div class="trabajo">
+              <div class="thumb">
+                <img src="./resources/images/una.jpg" alt="imagen de teatro broadway"/>
+              </div>
+               <div class="descripcion">
+                 <p class="nombre">Broadway Design</p>
+                 <p class="categoria">-HTML -CSS</p>
+               </div>
+             </div>
+            <div class="trabajo">
+              <div class="thumb">
+                <img src="./resources/images/dos.jpg" alt="tu guia de viaje personal"/>
+              </div>
+              <div class="descripcion">
+                 <p class="nombre">Excursion</p>
+                 <p class="categoria">-HTML -CSS</p>
+              </div>
+            </div>
+              <div class="trabajo">
+                <div class="thumb">
+                  <img src="./resources/images/tres.jpg" alt="optica carey"/>
+                </div>
+                <div class="descripcion">
+                  <p class="nombre">Optica</p>
+                  <p class="categoria">-HTML -CSS</p>
+                </div>
+              </div>
+                <div class="trabajo">
+                  <div class="thumb">
+                    <img src="./resources/images/siete.jpg" alt="periodico my times"/>
+                  </div>
+                  <div class="descripcion">
+                    <p class="nombre">Time</p>
+                    <p class="categoria">-HTML -CSS -RESPONSIVE WEB DESIGN</p>
+                  </div>
+                </div>
+                  <div class="trabajo">
+                    <div class="thumb">
+                      <img src="./resources/images/cuatro.jpg" alt="camara de foto"/>
+                    </div>
+                    <div class="descripcion">
+                      <p class="nombre">Foto Matic</p>
+                      <p class="categoria">-HTML -CSS -RESPONSIVE WEB DESIGN</p>
+                    </div>
+                  </div>
+                    <div class="trabajo">
+                      <div class="thumb">
+                        <img src="./resources/images/cinco.jpg" alt="te locos"/>
+                      </div>
+                      <div class="descripcion">
+                        <p class="nombre">Te Crazy</p>
+                        <p class="categoria">-HTML -CSS -RESPONSIVE WEB DESIGN</p>
+                      </div>
+                    </div>
+                      <div class="trabajo">
+                        <div class="thumb">
+                          <img src="./resources/images/seis.jpg" alt="academia colmar"/>
+                        </div>
+                        <div class="descripcion">
+                          <p class="nombre">Academia Colmar</p>
+                          <p class="categoria">-HTML -CSS -RESPONSIVE WEB DESIGN</p>
+                        </div>
+                      </div>
+                        <div class="trabajo">
+                          <div class="thumb">
+                            <img src="./resources/images/ocho.jpg" alt="juego de numero y cartas"/>
+                          </div>
+                          <div class="descripcion">
+                            <p class="nombre">Partido</p>
+                            <p class="categoria">-HTML -CSS -BOOTSTRAP -JAVASCRIPT -JQUERY</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!--google-->
+
+   <div id="map" class="map-container">
+  </div>
+    <footer>
+        <div class="container">
+      <section class="contacto" id="contacto">
+          <h3 class="titulo">Contacto</h3>
+          <form class="formulario" action="">
+             <input type="text" placeholder="Nombre" name="Nombre" required>
+             <input type="email" placeholder="Correo" name="Correo" required>
+             <textarea name="Mensaje" placeholder="Mensaje:"></textarea>
+             <input class="boton" type="submit" value="Enviar">
+             <button type="button" name="button"><a btn btn-default href="https://goo.gl/forms/mArAnjFZtmTV3brO2">formulario Google</a></button>
+          </form>
+        </div>
+      </section>
+      <section class="redes-sociales">
+        <div class="container">
+          <a href="#" class="Twitter"><i class="fa fa-twitter-square"></i></a>
+          <a href="#" class="Facebook"><i class="fa fa-facebook-official"></i></a>
+          <a href="#" class="Youtube"><i class="fa fa-youtube-play"></i></a>
+          <a href="#" class="GitHub"><i class="fa fa-github"></i></a>
+          <a href="#" class="Instagram"><i class="fa fa-instagram"></i></a>
+        </div>
+      </section>
+    </footer>
+
+    <!--//Google map related JS -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="./resources/plugins/gmaps/gmaps.js"></script>
+
+    <!--javaScript-->
+    <script type="text/javascript" src="./resources/js/main.js"></script>
+ </body>
+</html>
